@@ -789,6 +789,37 @@ div.profile-picture img{
 
 
 }
+@media screen and (orientation:landscape) and (max-width:950px){
+    div#center_header{
+        display:none;
+    }
+
+    #side_menu{
+        display:none;
+    }
+
+    #right_elements{
+        display:none;
+    }
+
+    #Search_input{
+        display:flex;
+    }
+    .search_icon{
+        border-radius: 50% 0% 0% 50%;
+    }
+
+    #middle_element{
+        margin-top:25px;
+        width:780px;
+        justify-content: center;
+    }
+
+    #post{
+        border-radius: 0;
+    }
+
+}
 
 @media screen and (max-width:1307px){
     .side-menu-line{
